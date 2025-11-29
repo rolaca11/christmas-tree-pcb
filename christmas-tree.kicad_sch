@@ -147,8 +147,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
+			(property "Reference" "BT1"
+				(at 3.81 3.1116 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -156,8 +156,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
+			(property "Value" "9"
+				(at 3.81 0.5716 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -165,7 +165,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "OneOffs:BatteryHolder_WJ-CR2032-1-W"
 				(at 0 1.524 90)
 				(effects
 					(font
@@ -184,6 +184,33 @@
 				)
 			)
 			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
 				(at 0 0 0)
 				(effects
 					(font
@@ -274,7 +301,7 @@
 				)
 			)
 			(symbol "Battery_Cell_1_1"
-				(pin passive line
+				(pin power_out line
 					(at 0 5.08 270)
 					(length 2.54)
 					(name "+"
@@ -292,7 +319,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 0 -2.54 90)
 					(length 2.54)
 					(name "-"
@@ -2114,7 +2141,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "33"
 			(at 144.78 111.76 90)
 			(effects
 				(font
@@ -2402,7 +2429,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "33"
 			(at 129.54 114.3 90)
 			(effects
 				(font
@@ -2557,7 +2584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_3002_1x2032"
+		(property "Footprint" "OneOffs:BatteryHolder_WJ-CR2032-1-W"
 			(at 199.39 148.336 90)
 			(effects
 				(font
@@ -2710,7 +2737,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "33"
 			(at 160.02 109.22 90)
 			(effects
 				(font
@@ -2999,7 +3026,7 @@
 				)
 			)
 		)
-		(property "Value" "120"
+		(property "Value" "33"
 			(at 175.26 106.68 90)
 			(effects
 				(font
